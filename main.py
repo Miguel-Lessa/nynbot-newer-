@@ -49,7 +49,7 @@ async def on_message(message = discord.Message) -> None:
     if command == 'joke':
         await message.channel.send (joke.get_joke())   
         
-    if command == 'rato':
+    if command == 'image':
         await message.channel.send (gear.get_random_image_url())
         await gear.send_random_image(message)
           
@@ -70,6 +70,6 @@ async def send_message(message: discord.Message, user_message: str) -> None:
 
 @client.event
 async def on_ready():
-    print('Hoje a janta é queijinho! ')
+    print('Bot positivo e operante')
     
 client.run('')
