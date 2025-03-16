@@ -15,3 +15,5 @@ Este repositório documenta a refatoracao do projeto Nynbot utilizando o padrão
 ## Consideracoes Finais
 A refatoracao resultou em um codigo mais limpo, modular e está fechado para mudanças e aberto a expansões, visto que para adicionar uma nova funcionalidade bastaria criar uma nova classe command. Caso encontre algum problema ou tenha sugestoes de melhorias, abra uma issue ou contribua com um pull request.
 
+## Autores
+Miguel Amaral Lessa Xavier 
