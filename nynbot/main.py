@@ -10,13 +10,13 @@ from discord.ext import commands, tasks
 from discord.ext.commands import Context
 from dotenv import load_dotenv
 from discord import Client, File
-from greetings import Greetings
+from commands.greetings import Greetings
 from Joke import Joke
 import sys
 from io import BytesIO
 from help import help
 from meme import meme
-from images import nsfw, safebooru, reisa
+from commands.images import nsfw, safebooru, reisa
 from games import vinte_um
       
 greetings = Greetings() 
